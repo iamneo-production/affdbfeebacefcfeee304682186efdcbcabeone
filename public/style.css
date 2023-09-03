@@ -1,0 +1,137 @@
+h1 {
+	color: white;
+	margin-bottom: -5px;
+	font-size: 50px;
+}
+p {
+	margin-bottom: -10px;
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 35px;
+}
+.row {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.cell {
+	border: 2px solid #fff;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	width: 75px;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 500;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.cell:active {
+	outline: none;
+}
+.cell:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+  }
+/* 3*3 Grid */
+#b1{
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+#b2 {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b3 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b4 {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+	
+#b5 {
+	border: 1px solid gray;
+}
+
+#b6 {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b7 {
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+#b8 {
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b9 {
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+}
+/* Reset Button */
+#reset {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	text-align: center;
+	border: 2px solid black;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: whitesmoke;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+}
+#reset:hover {
+	background-color: black;
+	color: #fff;
+}
+
+/* Player turn space */
+#result {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: rgb(2, 9, 17);
+	font-size: 25px;
+}
+.result-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #fff;
+	
+	width: 200px;
+	align-items: center; 
+	height: 50px;
+	margin : 0 auto;
+	text-align: center;
+}
+
+
+/* Main Container */
+#main {
+	text-align: center;
+}
+
+
